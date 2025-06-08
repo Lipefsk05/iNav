@@ -1,21 +1,28 @@
 .button{
     background-color: var(--softBlue);
     color: var(--white);
+    font-size: x-large;
 
-    width: 20%;
+    width: 55%;
     display: flex;
-    padding: 1rem;
+    flex-direction: column;
     border-radius: 50px;
+    padding: 1rem 4rem 5rem;
+    gap: 3rem;
 
     justify-content: space-around;
     align-items: center;
-
-    font-size: x-large;
-    
-    box-shadow: 0 6px 0 var(--white);
 }
 
 .button img{
     width: 5rem;
     column-rule: var(--orange);
+}
+
+.tittle{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
 }

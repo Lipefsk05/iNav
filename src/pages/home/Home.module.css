@@ -64,3 +64,14 @@ main span{
 .problem P{
     font-size: 2rem;
 }
+
+/* FEATURES */ 
+
+.features{
+    margin-top: 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 5rem;
+}

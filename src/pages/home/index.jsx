@@ -66,6 +66,22 @@ function Home() {
                     img={Compass}
                     tittle="Mapa Interativo"
                     texto={<>{'Veja sua localização exata'} <br /> {'no mapa em tempo real'} <br /> {'enquanto você caminha.'} </>} />
+
+                <BigButton
+                    img={Compass}
+                    tittle="Busca Inteligente"
+                    texto={<> {'Procure por nome da loja,'} <br /> {'produto ou categoria e'} <br /> {'encontre o que precisa.'} </>} />
+
+                <BigButton
+                    img={Compass}
+                    tittle="Navegação Guiada"
+                    texto={<> {'Trace a melhor rota até'} <br /> {'qualquer loja e receba'} <br /> {'instruções passo a passo.'} </>} />
+
+                <BigButton
+                    img={Compass}
+                    tittle="Avaliações e Recomendações "
+                    texto={<>{'Descubra novas lojas e veja'} <br /> {'o que outros usuários estão'} <br /> {'dizendo.'} </>} />
+
             </section>
         </main>
     )
