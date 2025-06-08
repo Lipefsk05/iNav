@@ -1,0 +1,21 @@
+.button{
+    background-color: var(--softBlue);
+    color: var(--white);
+
+    width: 20%;
+    display: flex;
+    padding: 1rem;
+    border-radius: 50px;
+
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: x-large;
+    
+    box-shadow: 0 6px 0 var(--white);
+}
+
+.button img{
+    width: 5rem;
+    column-rule: var(--orange);
+}

@@ -7,6 +7,15 @@
     align-items: center;
 }
 
-.footer span{
+.footer h4{
     font-weight: bold;
+}
+
+.footer img{
+    width: 1.5rem;
+}
+
+.menssage{
+    display: flex;
+    gap: .5rem;
 }

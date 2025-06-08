@@ -1,0 +1,66 @@
+/* HERO SECTION */
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.bannetText{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.banner h1{
+    color: var(--white);
+    font-size: 5rem;
+}
+
+main span{
+    color: var(--orange);
+}
+
+.banner h2{
+    font-size: 1.125rem;
+    color: var(--white);    
+}
+.banner img{
+    width: 40%;
+}
+
+/* LITTLE BUTTONS */
+
+.little_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+/* PROBLEM */
+
+.problem{
+    color: var(--white);
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 10rem;
+}
+
+.problem img{
+    width: 30%;
+}
+
+.problem h2{
+    font-size: 5rem;
+}
+
+.problem P{
+    font-size: 2rem;
+}

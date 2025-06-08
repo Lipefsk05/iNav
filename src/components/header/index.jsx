@@ -4,14 +4,12 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <header className={styles.header}>
-            <Link to="/">
-                <span>iNav</span>
-            </Link>
+            <Link to="/">iNav</Link>
 
             <nav>
-                <Link to="/features"><span>Features</span></Link>
-                <Link to="/sobre"><span>Sobre</span></Link>
-                <Link to="/contatos"><span>Contatos</span></Link>
+                <Link to="/features">Features</Link>
+                <Link to="/sobre">Sobre</Link>
+                <Link to="/contatos">Contatos</Link>
             </nav>
         </header>
     )

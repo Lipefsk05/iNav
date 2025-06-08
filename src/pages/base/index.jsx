@@ -11,7 +11,7 @@ function Base() {
         <main className={styles.main}>
             <Header />
             <Container>
-                {/* <Outlet/> */}
+                <Outlet/>
             </Container>
             <Footer />
         </main>
