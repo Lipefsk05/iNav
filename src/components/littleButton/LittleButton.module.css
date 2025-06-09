@@ -2,7 +2,7 @@
     background-color: var(--softBlue);
     color: var(--white);
 
-    width: 20%;
+    width: 25%;
     display: flex;
     padding: 1rem;
     border-radius: 100px;
@@ -11,12 +11,24 @@
     gap: 2rem;
     align-items: center;
 
-    font-size: x-large;
+    font-size: 1.5rem;
     
     box-shadow: 0 6px 0 var(--white);
 }
 
 .button img{
     width: 5rem;
-    column-rule: var(--orange);
+}
+
+@media (max-width: 768px){
+    .button{
+        width: 26%;
+        font-size: .8rem;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .button img{
+        width: 3rem;
+    }
 }

@@ -26,14 +26,13 @@ function Home() {
     return (
         <main>
             <section className={styles.banner}>
-                <article className={styles.bannetText}>
+                <article className={styles.bannerText}>
                     <h1>
                         <span>Encontre</span> <br />
                         sua loja <br />
                         em segundos
                     </h1>
-                    <p>Navegue com precisão com localização em <br />
-                        tempo real e mapas interativos.</p>
+                    <p>Navegue com precisão com localização em tempo real e mapas interativos.</p>
                 </article>
                 <img src={BannerImg} alt="Imagem do banner" />
             </section>
@@ -58,9 +57,9 @@ function Home() {
                 <img src={ProblemImg} alt="Imagem do banner" />
                 <article>
                     <h2>Já se sentiu <span>perdido?</span></h2>
-                    <p>Tentou encontrar aquela loja específica no meio de <br />
-                        centenas de corredores? Com o InNav, você tem o mapa <br />
-                        completo na sua mão. Pesquise, encontre o caminho mais <br />
+                    <p>Tentou encontrar aquela loja específica no meio de
+                        centenas de corredores? Com o InNav, você tem o mapa
+                        completo na sua mão. Pesquise, encontre o caminho mais
                         curto e chegue ao seu destino sem estresse.</p>
                 </article>
             </section>
@@ -69,66 +68,64 @@ function Home() {
                 <BigButton
                     img={Compass}
                     tittle="Mapa Interativo"
-                    texto={<>{'Veja sua localização exata'} <br /> {'no mapa em tempo real'} <br /> {'enquanto você caminha.'} </>} />
+                    texto="Veja sua localização exata no mapa em tempo real enquanto você caminha." />
 
                 <BigButton
                     img={Compass}
                     tittle="Busca Inteligente"
-                    texto={<> {'Procure por nome da loja,'} <br /> {'produto ou categoria e'} <br /> {'encontre o que precisa.'} </>} />
+                    texto="Procure por nome da loja, produto ou categoria e encontre o que precisa." />
 
                 <BigButton
                     img={Compass}
                     tittle="Navegação Guiada"
-                    texto={<> {'Trace a melhor rota até'} <br /> {'qualquer loja e receba'} <br /> {'instruções passo a passo.'} </>} />
+                    texto="Trace a melhor rota até qualquer loja e receba instruções passo a passo." />
 
                 <BigButton
                     img={Compass}
                     tittle="Avaliações e Recomendações "
-                    texto={<>{'Descubra novas lojas e veja'} <br /> {'o que outros usuários estão'} <br /> {'dizendo.'} </>} />
+                    texto="Descubra novas lojas e veja o que outros usuários estão dizendo." />
 
             </section>
 
             <section className={styles.user_flow}>
-                <article>
+                <article className={styles.flow1}>
                     <img src={Mobile1} alt="" />
                     <div>
-                        <p>Abra o App <br />
-                        aplicativo assim <br />
-                        que entrar no local.</p>
-                        
+                        <p>Abra o App
+                            aplicativo assim
+                            que entrar no local.</p>
                         <span>1</span>
                     </div>
                 </article>
 
-                <article>
+                <article className={styles.flow2}>
                     <div>
                         <span>2</span>
-                    
-                        <p>Pesquise o local onde <br />
-                        você se encontra como <br />
-                        um mercado ou shopping</p>
+                        <p>Pesquise o local onde
+                            você se encontra como
+                            um mercado ou shopping</p>
                     </div>
                     <img src={Mobile2} alt="" />
                 </article>
-                
-                <article>
+
+                <article className={styles.flow3}>
                     <img src={Mobile3} alt="" />
                     <div>
-                        <p>Pesquise seu Destino <br />
-                        digitando o nome da <br />
-                        loja ou o que procura.</p>
-                        
+                        <p>Pesquise seu Destino
+                            digitando o nome da
+                            loja ou o que procura.</p>
+
                         <span>3</span>
                     </div>
                 </article>
-                
-                <article>
+
+                <article className={styles.flow4}>
                     <div>
                         <span>4</span>
-                        
-                        <p>Siga a rota e deixe <br />
-                        nosso guia levar <br />
-                        você até lá.</p>
+
+                        <p>Siga a rota e deixe
+                            nosso guia levar
+                            você até lá.</p>
                     </div>
                     <img src={Mobile4} alt="" />
                 </article>
