@@ -137,7 +137,7 @@ div {
 }
 
 
-/* RESPONSIVIDADE */
+/* RESPONSIVIDADE TABLET*/
 
 @media (max-width: 768px) {
 
@@ -152,6 +152,12 @@ div {
         font-size: 1.5rem;
     }
 
+    /* LITTLE BUTTONS */
+
+    .little_buttons {
+        margin-top: 7rem;
+    }
+
     /* PROBLEM */
 
     .problem {
@@ -161,7 +167,7 @@ div {
         display: flex;
         align-items: center;
         gap: 3rem;
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
 
     .problem img {
@@ -178,15 +184,16 @@ div {
 
     /* FEATURES */
     .features {
-        margin: 10rem 10% 0;
+        margin: 7rem 10% 0;
         column-gap: 3rem;
         row-gap: 3rem;
     }
 
     /* USER FLOW */
 
-    .user_flow{
+    .user_flow {
         gap: 2rem;
+        margin-top: 7rem;
     }
 
     .user_flow article {
@@ -201,4 +208,112 @@ div {
     .user_flow span {
         padding: 0 2rem;
     }
+}
+
+/* RESPONSIVIDADE MOBILE*/
+
+@media (max-width: 390px) {
+
+    .banner img {
+        display: none;
+    }
+
+    .bannerText h1 {
+        font-size: 2rem;
+    }
+
+    .bannerText p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* LITTLE BUTTONS */
+    
+    .little_buttons {
+        margin-top: 5rem;
+    }
+
+    /* PROBLEM */
+
+    .problem {
+        color: var(--white);
+        margin: 0 5%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+
+    .problem img {
+        display: none;
+    }
+
+    .problem h2 {
+        font-size: 2rem;
+    }
+
+    .problem P {
+        font-size: 1rem;
+    }
+
+    /* FEATURES */
+    .features {
+        margin: 5rem 10% 0;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+
+    /* USER FLOW */
+
+    .user_flow {
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    
+    .user_flow article {
+        flex-direction: column;
+    }
+    
+    .user_flow img {
+        width: 7rem;
+    }
+    
+    
+    .user_flow p {
+        font-size: 1rem;
+        width: 15rem;
+    }
+
+    .user_flow span {
+        font-size: 5rem;
+        padding: 0 1rem;
+    }
+
+    /* USER FLOW */
+/* 
+    .user_flow {
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    
+    .user_flow div {
+        flex-direction: column;
+    }
+    
+    .user_flow img {
+        width: 7rem;
+    }
+    
+    
+    .user_flow p {
+        font-size: 1rem;
+        width: 10rem;
+    }
+
+    .user_flow span {
+        font-size: 5rem;
+    } */
+
+
 }
