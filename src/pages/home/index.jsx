@@ -9,6 +9,10 @@ import BigButton from '../../components/bigButton'
 //Img
 import BannerImg from '../../assets/img/Banner.svg'
 import ProblemImg from '../../assets/img/problem.svg'
+import Mobile1 from '../../assets/img/Mobile1.svg'
+import Mobile2 from '../../assets/img/Mobile2.svg'
+import Mobile3 from '../../assets/img/Mobile3.svg'
+import Mobile4 from '../../assets/img/Mobile4.svg'
 
 
 //Icons
@@ -28,8 +32,8 @@ function Home() {
                         sua loja <br />
                         em segundos
                     </h1>
-                    <h2>Navegue com precisão com localização em <br />
-                        tempo real e mapas interativos.</h2>
+                    <p>Navegue com precisão com localização em <br />
+                        tempo real e mapas interativos.</p>
                 </article>
                 <img src={BannerImg} alt="Imagem do banner" />
             </section>
@@ -81,6 +85,53 @@ function Home() {
                     img={Compass}
                     tittle="Avaliações e Recomendações "
                     texto={<>{'Descubra novas lojas e veja'} <br /> {'o que outros usuários estão'} <br /> {'dizendo.'} </>} />
+
+            </section>
+
+            <section className={styles.user_flow}>
+                <article>
+                    <img src={Mobile1} alt="" />
+                    <div>
+                        <p>Abra o App <br />
+                        aplicativo assim <br />
+                        que entrar no local.</p>
+                        
+                        <span>1</span>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <span>2</span>
+                    
+                        <p>Pesquise o local onde <br />
+                        você se encontra como <br />
+                        um mercado ou shopping</p>
+                    </div>
+                    <img src={Mobile2} alt="" />
+                </article>
+                
+                <article>
+                    <img src={Mobile3} alt="" />
+                    <div>
+                        <p>Pesquise seu Destino <br />
+                        digitando o nome da <br />
+                        loja ou o que procura.</p>
+                        
+                        <span>3</span>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <span>4</span>
+                        
+                        <p>Siga a rota e deixe <br />
+                        nosso guia levar <br />
+                        você até lá.</p>
+                    </div>
+                    <img src={Mobile4} alt="" />
+                </article>
 
             </section>
         </main>

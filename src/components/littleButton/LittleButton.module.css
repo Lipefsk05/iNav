@@ -5,9 +5,10 @@
     width: 20%;
     display: flex;
     padding: 1rem;
-    border-radius: 50px;
+    border-radius: 100px;
 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
 
     font-size: x-large;
