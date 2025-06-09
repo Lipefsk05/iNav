@@ -1,39 +1,40 @@
 /* HERO SECTION */
 
-.banner{
+.banner {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 
-.bannetText{
+.bannetText {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.banner h1{
+.banner h1 {
     color: var(--white);
     font-size: 5rem;
 }
 
-main span{
+main span {
     color: var(--orange);
 }
 
-.banner p{
-    font-size: 1.125rem;
-    color: var(--white);    
+.banner p {
+    font-size: 1.5em;
+    color: var(--white);
 }
-.banner img{
+
+.banner img {
     width: 40%;
 }
 
 /* LITTLE BUTTONS */
 
-.little_buttons{
+.little_buttons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -42,9 +43,9 @@ main span{
 
 /* PROBLEM */
 
-.problem{
+.problem {
     color: var(--white);
-    
+
     width: 100%;
     display: flex;
     align-items: center;
@@ -53,30 +54,31 @@ main span{
     margin-top: 10rem;
 }
 
-.problem img{
+.problem img {
     width: 30%;
 }
 
-.problem h2{
+.problem h2 {
     font-size: 5rem;
 }
 
-.problem P{
+.problem P {
     font-size: 2rem;
 }
 
-/* FEATURES */ 
+/* FEATURES */
 
 .features {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-  padding: 20px;
-  justify-items: center;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    padding: 20px;
+    justify-items: center;
 }
 
 /* USER FLOW */
-.user_flow{
+.user_flow {
     margin-top: 10rem;
     width: 100%;
     display: flex;
@@ -85,27 +87,28 @@ main span{
     margin-bottom: 5rem;
 }
 
-.user_flow article, div{
+.user_flow article,
+div {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.user_flow article{
+.user_flow article {
     gap: 10rem;
 }
 
-.user_flow img{
+.user_flow img {
     width: 30%;
 }
 
-.user_flow span{
+.user_flow span {
     color: var(--softBlue);
     font-size: 10rem;
     font-weight: bold;
 }
 
-.user_flow p{
+.user_flow p {
     color: var(--white);
     font-size: 2rem;
 

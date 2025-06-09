@@ -1,0 +1,47 @@
+.features {
+    margin-top: 4rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.features article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.features p {
+    color: var(--white);
+    font-size: 2rem;
+    text-align: start;
+}
+
+.feature1,
+.feature3 {
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+.feature1 p,
+.feature3 p {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.feature2,
+.feature4 {
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+.feature2 p,
+.feature4 p {
+    align-items: fl ex-start;
+    text-align: lef t;
+}
