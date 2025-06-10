@@ -184,7 +184,7 @@ div {
 
     /* FEATURES */
     .features {
-        margin: 7rem 10% 0;
+        margin: 7rem 5% 0;
         column-gap: 3rem;
         row-gap: 3rem;
     }
@@ -228,9 +228,22 @@ div {
     }
 
     /* LITTLE BUTTONS */
-    
+
     .little_buttons {
-        margin-top: 5rem;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1.5rem;
+        justify-items: center;
+        margin: 3rem 10% 0;
+    }
+
+    .little_buttons> :last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: fit-content;
+        padding: .5rem 2rem;
     }
 
     /* PROBLEM */
@@ -260,8 +273,8 @@ div {
     /* FEATURES */
     .features {
         margin: 5rem 10% 0;
-        column-gap: 3rem;
-        row-gap: 3rem;
+        display: flex;
+        flex-direction: column;
     }
 
     /* USER FLOW */
@@ -270,50 +283,26 @@ div {
         gap: 2rem;
         margin-top: 5rem;
     }
-    
+
     .user_flow article {
-        flex-direction: column;
-    }
-    
-    .user_flow img {
-        width: 7rem;
-    }
-    
-    
-    .user_flow p {
-        font-size: 1rem;
-        width: 15rem;
+        gap: 1rem;
     }
 
-    .user_flow span {
-        font-size: 5rem;
-        padding: 0 1rem;
+    .user_flow img {
+        width: 6rem;
     }
 
-    /* USER FLOW */
-/* 
-    .user_flow {
-        gap: 2rem;
-        margin-top: 5rem;
-    }
-    
-    .user_flow div {
-        flex-direction: column;
-    }
-    
-    .user_flow img {
-        width: 7rem;
-    }
-    
-    
+
     .user_flow p {
-        font-size: 1rem;
+        font-size: .8rem;
         width: 10rem;
     }
 
     .user_flow span {
-        font-size: 5rem;
-    } */
+        font-size: 3rem;
+        padding: 0 1rem;
+
+    }
 
 
 }

@@ -22,3 +22,17 @@
     display: flex;
     gap: .5rem;
 }
+
+@media (max-width: 390px){
+    .footer{
+        height: 20px;
+    }
+
+    .footer h4{
+        font-size: .5rem;
+    }
+
+    .footer img{
+        width: .5rem;
+    }
+}

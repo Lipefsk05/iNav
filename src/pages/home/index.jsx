@@ -19,6 +19,7 @@ import Mobile4 from '../../assets/img/Mobile4.svg'
 import Compass from '../../assets/img/compass.svg'
 import Lupe from '../../assets/img/lupe.svg'
 import Path from '../../assets/img/path.svg'
+import Star from '../../assets/img/star.svg'
 
 
 
@@ -71,17 +72,17 @@ function Home() {
                     texto="Veja sua localização exata no mapa em tempo real enquanto você caminha." />
 
                 <BigButton
-                    img={Compass}
+                    img={Lupe}
                     tittle="Busca Inteligente"
                     texto="Procure por nome da loja, produto ou categoria e encontre o que precisa." />
 
                 <BigButton
-                    img={Compass}
+                    img={Path}
                     tittle="Navegação Guiada"
                     texto="Trace a melhor rota até qualquer loja e receba instruções passo a passo." />
 
                 <BigButton
-                    img={Compass}
+                    img={Star}
                     tittle="Avaliações e Recomendações "
                     texto="Descubra novas lojas e veja o que outros usuários estão dizendo." />
 
@@ -89,7 +90,7 @@ function Home() {
 
             <section className={styles.user_flow}>
                 <article className={styles.flow1}>
-                    <img src={Mobile1} alt="" />
+                    <img src={Mobile1} alt="mobile image 1" />
                     <div>
                         <p>Abra o App
                             aplicativo assim
@@ -105,11 +106,11 @@ function Home() {
                             você se encontra como
                             um mercado ou shopping</p>
                     </div>
-                    <img src={Mobile2} alt="" />
+                    <img src={Mobile2} alt="mobile image 2" />
                 </article>
 
                 <article className={styles.flow3}>
-                    <img src={Mobile3} alt="" />
+                    <img src={Mobile3} alt="mobile image 3" />
                     <div>
                         <p>Pesquise seu Destino
                             digitando o nome da
@@ -127,7 +128,7 @@ function Home() {
                             nosso guia levar
                             você até lá.</p>
                     </div>
-                    <img src={Mobile4} alt="" />
+                    <img src={Mobile4} alt="mobile image 4" />
                 </article>
 
             </section>
