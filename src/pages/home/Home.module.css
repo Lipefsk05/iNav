@@ -239,6 +239,11 @@ div {
         font-size: 1rem;
     }
 
+    .dowload{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
     /* LITTLE BUTTONS */
 
     .little_buttons {
