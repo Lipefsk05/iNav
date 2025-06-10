@@ -34,6 +34,7 @@ function Home() {
                         em segundos
                     </h1>
                     <p>Navegue com precisão com localização em tempo real e mapas interativos.</p>
+                    <button className={styles.dowload}>Dowload</button>
                 </article>
                 <img src={BannerImg} alt="Imagem do banner" />
             </section>

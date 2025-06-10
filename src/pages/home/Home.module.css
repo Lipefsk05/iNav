@@ -1,5 +1,10 @@
 /* HERO SECTION */
 
+main span {
+    color: var(--orange);
+}
+
+
 .banner {
     width: 80%;
     display: flex;
@@ -12,7 +17,7 @@
 .bannerText {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .banner h1 {
@@ -20,8 +25,15 @@
     font-size: 5rem;
 }
 
-main span {
-    color: var(--orange);
+.dowload{
+    border: none;
+    color: var(--white);
+    background-color: var(--orange);
+    width: max-content;
+    padding: 1rem 1.5rem;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .banner p {
