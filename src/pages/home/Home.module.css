@@ -212,7 +212,7 @@ div {
 
 /* RESPONSIVIDADE MOBILE*/
 
-@media (max-width: 390px) {
+@media (max-width: 413px) {
 
     .banner img {
         display: none;

@@ -23,7 +23,7 @@
     gap: .5rem;
 }
 
-@media (max-width: 390px){
+@media (max-width: 413px){
     .footer{
         height: 20px;
     }
