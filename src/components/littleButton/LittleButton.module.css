@@ -23,7 +23,8 @@
 .button h2{
 }
 
-@media (max-width: 768px){
+@media (min-width:768px) and (max-width: 1322px) {
+
     .button{
         width: 26%;
         font-size: .8rem;
@@ -36,7 +37,8 @@
     }
 }
 
-@media (max-width: 413px){
+@media (max-width: 767px) {
+
     .button{
         width: 100%;
         font-size: .5rem;

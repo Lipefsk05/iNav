@@ -43,7 +43,7 @@ nav {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width:768px) and (max-width: 1322px) {
 
     .header {
         display: flex;
@@ -81,7 +81,7 @@ nav {
     }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 767px) {
     .show {
         width: 50%;
     }
