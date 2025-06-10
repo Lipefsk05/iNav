@@ -80,16 +80,19 @@ nav {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 413px) {
     .show {
         width: 50%;
     }
 
     .pages{
-        gap: 2rem;
-        }
+        gap: 1rem;
+        width: 30%;
+        padding: 1rem;
+    }
 
     .pages span{
-        font-size: 1rem;
+        font-size: .5rem;
+        font-weight: bold;
     }
 }
