@@ -31,24 +31,6 @@
     gap: 1rem;
 }
 
-@media (max-width: 768px) {
-    .button{
-        font-size: 1rem;
-        gap: 1rem;
-        padding: 1.5rem 1rem ;
-        border-radius: 2rem;
-
-    }
-
-    .button p{
-        font-size: 1rem;
-        width: 80%;
-    }
-
-    .button img{
-        width: 4rem;
-    }
-}
 
 @media (min-width:768px) and (max-width: 1322px) {
 
@@ -76,5 +58,24 @@
 
     .button img{
         width: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .button{
+        font-size: 1rem;
+        gap: 1rem;
+        padding: 1.5rem 1rem ;
+        border-radius: 2rem;
+
+    }
+
+    .button p{
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .button img{
+        width: 4rem;
     }
 }

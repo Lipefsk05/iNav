@@ -14,6 +14,10 @@
     gap: 2rem;
 }
 
+.features h2{
+    width: max-content;
+}
+
 .features p {
     color: var(--white);
     font-size: 2rem;
@@ -26,13 +30,6 @@
     text-align: left;
 }
 
-
-.feature1 p,
-.feature3 p {
-    align-items: flex-start;
-    text-align: left;
-}
-
 .feature2,
 .feature4 {
     align-items: flex-end;
@@ -40,8 +37,18 @@
 }
 
 
-.feature2 p,
-.feature4 p {
-    align-items: fl ex-start;
-    text-align: lef t;
+@media (min-width:768px) and (max-width: 1322px) {
+    .features  p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .features  p{
+        font-size: 1rem;
+    }
+    .features article{
+        align-items: center;
+        text-align: center;
+    }
 }

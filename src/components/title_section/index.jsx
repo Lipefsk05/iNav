@@ -1,14 +1,25 @@
 import styles from './TitleSection.module.css'
 
+import PropTypes from 'prop-types';
 
-function TitleSection({ icon, title}) {
+function TitleSection({ icon, title }) {
     return (
         <div className={styles.title_section}>
-                <img src={icon} alt="" />
-                <h2>{title}</h2>
+            {icon && <img src={icon} alt={`Ícone para ${title}`} />}
+            
+            <h2>{title}</h2>
         </div>
     )
 }
 
-export default TitleSection
+TitleSection.propTypes = {
+  icon: PropTypes.string,
+  title: PropTypes.string.isRequired
+}
 
+TitleSection.defaultProps = {
+  icon: null
+};
+
+
+export default TitleSection
